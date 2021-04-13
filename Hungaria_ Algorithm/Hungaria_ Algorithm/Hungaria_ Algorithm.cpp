@@ -57,11 +57,27 @@ int main()
 			}
 		}
 	}
+	int line_num = 0;
 	while (zero_position.size())
 	{
-		//for()
+		Point init = zero_position[zero_position.size()-1];
+		vector<int> can_pick;
+		for (int i = zero_position.size()-2; i>0; i--) {
+			if (init.x = zero_position[i].x) {
+				can_pick.push_back(i);
+			}
+			else if (init.y = zero_position[i].y) {
+				can_pick.push_back(i);
+			}
+		}
+		for (int i = 0; i < can_pick.size(); i++) {
+			cout << can_pick[i] << endl;
+			zero_position.erase(zero_position.begin()+ can_pick[i]);
+		}
+		zero_position.pop_back();
+		line_num++;
 	}
-
+	printf("num %d\r\n", line_num);
 	show(data_ptr, 3, 3);
 
 
