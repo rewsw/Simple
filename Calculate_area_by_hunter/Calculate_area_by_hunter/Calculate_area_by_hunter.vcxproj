@@ -152,7 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="area.c" />
-    <ClCompile Include="Calculate_area_by_hunter.cpp" />
+    <ClCompile Include="Calculate_area_by_hunter.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="area.h" />

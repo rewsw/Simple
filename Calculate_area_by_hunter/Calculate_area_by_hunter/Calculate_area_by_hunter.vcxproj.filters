@@ -15,11 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Calculate_area_by_hunter.cpp">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
     <ClCompile Include="area.c">
       <Filter>資源檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculate_area_by_hunter.c">
+      <Filter>來源檔案</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
